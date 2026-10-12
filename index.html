@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Alexander Servis Bojnice – autoservis, autobazár, náhradné diely</title>
+<meta name="description" content="Alexander Servis Bojnice: autoservis pre osobné a dodávkové vozidlá, klampiarske práce, náhradné diely, predaj ojazdených vozidiel a motocyklov, dovoz áut zo zahraničia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=a1x7e0c2">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a class="brand" href="#top"><img src="img/logo.png" alt="Alexander Servis"></a>
+  <nav>
+    <a href="#servis">Autoservis</a>
+    <a href="#bazar">Autobazár</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="btn btn-sm" href="#kontakt">Objednať termín</a>
+</header>
+
+<section class="hero" id="top" style="padding:0">
+  <div class="hero-in">
+    <p class="eyebrow">Bojnice · Autoservis · Autobazár</p>
+    <h1>Vaše auto<br>v <em>dobrých</em><br>rukách.</h1>
+    <p class="lead">Opravy osobných aj dodávkových vozidiel, klampiarske práce, náhradné diely a ponuka ojazdených áut a motocyklov na jednom mieste.</p>
+    <div class="cta-row">
+      <a class="btn" href="#kontakt">Objednať termín</a>
+      <a class="btn btn-ghost" href="#bazar">Ponuka vozidiel</a>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <div>Všetky druhy vozidiel<small>osobné aj dodávkové</small></div>
+  <div>Klampiarske práce<small>aj opravy štartérov a alternátorov</small></div>
+  <div>Náhradné diely<small>predaj priamo v servise</small></div>
+  <div>Dovoz áut<small>zo zahraničia</small></div>
+</div>
+
+<section id="servis">
+  <div class="wrap">
+    <p class="label reveal">Autoservis</p>
+    <h2 class="reveal">Čo u nás <em>opravíme</em></h2>
+    <div class="grid">
+      <article class="card reveal"><b>01</b><h3>Servis a opravy</h3><p>Robíme všetky druhy vozidiel, osobné aj dodávkové automobily.</p></article>
+      <article class="card reveal"><b>02</b><h3>Diagnostika</h3><p>Zistíme, čo sa s autom deje, skôr než sa z drobnosti stane veľká oprava.</p></article>
+      <article class="card reveal"><b>03</b><h3>Klampiarske práce</h3><p>Opravy karosérie a plechových dielov.</p></article>
+      <article class="card reveal"><b>04</b><h3>Štartéry a alternátory</h3><p>Opravy štartérov a alternátorov.</p></article>
+      <article class="card reveal"><b>05</b><h3>Zámky</h3><p>Nové zámky do vozidiel.</p></article>
+      <article class="card reveal"><b>06</b><h3>Odťahová služba</h3><p>Keď auto nepojazdí, vieme zabezpečiť odťah.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="bazar">
+  <div class="wrap two">
+    <div>
+      <p class="label reveal">Autobazár</p>
+      <h2 class="reveal">Auto, motorka alebo <em>dovoz</em> zo zahraničia</h2>
+      <p class="reveal">V autobazáre nájdete ojazdené vozidlá a motocykle. Ak hľadáte konkrétny model, pomôžeme s dovozom auta zo zahraničia.</p>
+      <ul class="ticks reveal"><li>Predaj ojazdených vozidiel</li><li>Predaj motocyklov</li><li>Dovoz áut zo zahraničia</li><li>Predaj náhradných dielov</li></ul>
+      <a class="btn reveal" href="#kontakt">Opýtať sa na vozidlo</a>
+    </div>
+    <div class="panel reveal">
+      <h3>Autobazár</h3>
+      <p>Napíšte, aké auto hľadáte (značka, model, rozpočet), a ozveme sa s aktuálnou ponukou.</p>
+      <p style="color:var(--muted);font-size:.9rem;margin-top:1rem">V plnej verzii webu tu bude prehľadná ponuka vozidiel s fotkami, cenou a základnými údajmi, ktorú si budete jednoducho spravovať.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="wrap contact">
+    <div>
+      <p class="label reveal">Kontakt</p>
+      <h2 class="reveal">Napíšte, čo <em>potrebujete</em></h2>
+      <form class="form reveal" onsubmit="event.preventDefault();this.querySelector('button').textContent='Ďakujeme, formulár je v návrhu len ukážkou';">
+        <input type="text" placeholder="Meno" aria-label="Meno">
+        <input type="email" placeholder="E-mail" aria-label="E-mail">
+        <select aria-label="Čo potrebujete"><option>Servis / oprava</option><option>Klampiarske práce</option><option>Náhradné diely</option><option>Ojazdené vozidlo / motocykel</option><option>Dovoz auta</option><option>Iné</option></select>
+        <textarea placeholder="Správa" rows="4" aria-label="Správa"></textarea>
+        <button class="btn" type="submit">Odoslať</button>
+      </form>
+    </div>
+    <aside class="info reveal">
+      <p><b>Alexander Servis</b><br>Rybníčky 1644/12<br>972 01 Bojnice</p>
+      <p><b>Servis</b><br>tel.: <a href="tel:0465402131">046/5402131</a>, <a href="tel:0465402133">046/5402133</a><br>mobil: <a href="tel:0903804909">0903 804 909</a></p>
+      <p><b>Autobazár</b><br>mobil: <a href="tel:0903118477">0903 118 477</a></p>
+      <p><b>E-mail</b><br><a href="mailto:alexanderservis@alexanderservis.sk">alexanderservis@alexanderservis.sk</a></p>
+      <div class="map">Mapa s polohou prevádzky (Bojnice, Rybníčky) bude v plnej verzii.</div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <span>© Alexander Servis, Bojnice</span>
+  <span>Návrh webu pripravil WebHunter. Ilustračná ukážka, texty sú z Vášho súčasného webu.</span>
+</footer>
+<script src="main.js?v=a1x7e0c2"></script>
+</body>
+</html>
